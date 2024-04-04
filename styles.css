@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.blue-btn, .green-btn, .red-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.green-btn {
+    background-color: #007bff;
+}
+
+.red-btn {
+    background-color: 354#007bff;
+}
+
+.blue-btn:hover, .green-btn:hover, .red-btn:hover {
+    background-color: #0056b3;
+}
